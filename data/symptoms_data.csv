@@ -1,0 +1,91 @@
+symptoms,risk
+mild headache and tiredness,low
+slight headache after studying,low
+mild cold and runny nose,low
+sneezing and mild cough,low
+minor throat irritation,low
+mild stomach pain after eating,low
+slight body ache after exercise,low
+mild weakness after work,low
+minor cough without fever,low
+mild fever and tiredness,low
+runny nose and sneezing,low
+light headache and stress,low
+mild acidity and stomach discomfort,low
+minor back pain after sitting,low
+watery eyes and sneezing,low
+mild sore throat,low
+low grade fever and cold,low
+mild nausea after food,low
+slight dizziness after standing,low
+minor skin itching,low
+mild tooth pain,low
+mild eye strain after screen use,low
+minor ankle pain after walking,low
+slight fatigue after travel,low
+mild cough and sneezing,low
+mild throat pain without fever,low
+headache due to lack of sleep,low
+mild stomach gas and burping,low
+minor muscle pain after exercise,low
+mild seasonal allergy symptoms,low
+fever and body pain,medium
+fever with chills and weakness,medium
+persistent cough and weakness,medium
+vomiting and dehydration,medium
+high fever for 3 days,medium
+stomach pain with vomiting,medium
+continuous headache and dizziness,medium
+cough fever and chest discomfort,medium
+diarrhea and weakness,medium
+fever and sore throat for two days,medium
+moderate abdominal pain,medium
+repeated vomiting,medium
+burning urination and fever,medium
+ear pain with fever,medium
+worsening cough for many days,medium
+joint pain and fever,medium
+moderate dehydration symptoms,medium
+high fever with body ache,medium
+severe headache with vomiting,medium
+long lasting fever and fatigue,medium
+fever and rash,medium
+painful urination and weakness,medium
+moderate chest discomfort with cough,medium
+dizziness and repeated vomiting,medium
+strong stomach cramps and diarrhea,medium
+fever continuing for more than two days,medium
+swelling and pain after injury,medium
+persistent weakness and loss of appetite,medium
+cough with yellow mucus and fever,medium
+headache with blurred vision,medium
+chest pain and shortness of breath,high
+severe chest pain and sweating,high
+difficulty breathing and blue lips,high
+unconscious and not responding,high
+severe bleeding after accident,high
+seizure and unconsciousness,high
+very high fever with confusion,high
+sudden weakness on one side of body,high
+face drooping and speech difficulty,high
+severe allergic reaction and swelling,high
+breathing difficulty after allergy,high
+major accident with heavy bleeding,high
+chest tightness with severe breathlessness,high
+fainting with chest pain,high
+blood vomiting and weakness,high
+severe dehydration and confusion,high
+child not responding and high fever,high
+severe burn injury,high
+poisoning or drug overdose,high
+snake bite and swelling,high
+severe head injury after accident,high
+sudden severe headache and confusion,high
+loss of consciousness after fall,high
+severe abdominal pain with fainting,high
+pregnancy bleeding and severe pain,high
+suspected heart attack symptoms,high
+stroke symptoms and speech problem,high
+not breathing properly and turning blue,high
+heavy bleeding that does not stop,high
+severe asthma attack and breathlessness,high
