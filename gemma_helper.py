@@ -1,5 +1,5 @@
 import os
-import google.generativeai as genai
+from google import genai
 
 
 def offline_guidance(symptoms, risk_level):
@@ -52,9 +52,7 @@ def get_gemma_response(symptoms, risk_level):
         return offline_guidance(symptoms, risk_level)
 
     try:
-        genai.configure(api_key=api_key)
-
-        model = genai.GenerativeModel("models/gemini-2.0-flash")
+        client = genai.Client(api_key=api_key)
 
         prompt = f"""
 You are SwasthyaAI, a safe health triage assistant.
@@ -75,11 +73,16 @@ Give simple guidance in 5 bullet points:
 Rules:
 - Do not diagnose disease
 - Do not prescribe medicine
-- Use simple language
-- Be calm and helpful
+- Use simple and calm language
+- Mention emergency care for severe symptoms
 """
 
-        response = model.generate_content(prompt)
+        # Gemma 4 first because this is for Gemma 4 Good Hackathon
+        response = client.models.generate_content(
+            model="gemma-4-31b-it",
+            contents=prompt
+        )
+
         return response.text
 
     except Exception as e:
